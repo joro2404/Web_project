@@ -11,7 +11,7 @@ Must use:<br />
 3. If JS - ES6+ with Babel<br />
 4. Flex or grid for layouts<br />
  
-Requirements
+Requirements:<br />
 [ ] Host the code as on GitHub<br />
 [ ] Host the site itself on free services like github sites for easy preview<br />
 [ ] Must style at least 5 different layouts for the site<br />
