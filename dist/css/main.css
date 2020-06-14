@@ -379,6 +379,68 @@ template {
   display: none;
 }
 
+/* line 1, src/sass/general/search.scss */
+body {
+  padding-top: 75px;
+}
+
+/* line 5, src/sass/general/search.scss */
+.search-container {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 11, src/sass/general/search.scss */
+input#search-bar {
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  outline: none;
+}
+
+/* line 19, src/sass/general/search.scss */
+input#search-bar:focus {
+  border: 1px solid #008ABF;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+  color: #008ABF;
+}
+
+/* line 23, src/sass/general/search.scss */
+input#search-bar:focus::-webkit-input-placeholder {
+  -webkit-transition: opacity 0.45s ease;
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+
+/* line 27, src/sass/general/search.scss */
+input#search-bar:focus::-moz-placeholder {
+  -webkit-transition: opacity 0.45s ease;
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+
+/* line 31, src/sass/general/search.scss */
+input#search-bar:focus:-ms-placeholder {
+  -webkit-transition: opacity 0.45s ease;
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+
+/* line 38, src/sass/general/search.scss */
+.search-icon {
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -62px;
+  right: -20px;
+}
+
 /*
  * CSS Fadeshow by @alexerlandsson
  * This is a fadeshow built in CSS and with customization in focus.
