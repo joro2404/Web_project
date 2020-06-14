@@ -3,6 +3,7 @@
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/out.css">
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script language="JavaScript" type="text/javascript" src="/js/menu.js"></script>
 	
@@ -30,7 +31,7 @@
 		<div class="mob-nav">
 		<nav>
 			<ul>
-			<li class="mob-drop-1">
+			<li class="mob-drop mob-drop-1">
 				<a >Products</a>
 				<ul class="mob-dropdown mob-dropdown-1">
 				<li><a href="products.html">Men Clothing</a></li>
@@ -47,7 +48,7 @@
 			</li>
 			<li><a href="showcase.html">Html Showcase</a></li>
 			
-			<li class="mob-drop-2">
+			<li class="mob-drop mob-drop-2">
 				<a >Cart</a>
 				<ul class="mob-dropdown mob-dropdown-2">
 				<li><a href="cart.html">Show Cart</a></li>
@@ -87,9 +88,9 @@
 					</li>
 				</ul>
 				</li>
-				<li><a href="showcase.html">Html Showcase</a></li>
+				<li><a href="#">Html Showcase</a></li>
 				
-				<li class="drop"><a class="active">Cart</a>
+				<li class="drop"><a class="active" >Cart</a>
 				<ul class="dropdown">
 					<li><a href="cart.html">Show Cart</a></li>
 					<li><a href="checkout.html">Check out</a></li>
@@ -103,6 +104,82 @@
 
 	</div>
 
+
+    <div>
+        <main>
+            <section class="cart">
+                <div class="cart-item">
+                    <img src="https://media.istockphoto.com/photos/front-of-men-cut-black-tshirt-isolated-on-white-background-picture-id1142212002?k=6&m=1142212002&s=612x612&w=0&h=kUfL77LrIvxSnZ_XhFyPU9EvgJNooZjP6ixzyHk42Ic=" class="image">
+                    <p class="title">Lorem ipsum dolor <span>Size: L</span></p>
+                    <p class="currency">EUR</p>
+                    <p class="price">4.25</p>
+                </div>
+                <div class="cart-item">
+                    <img src="https://media.istockphoto.com/photos/front-of-men-cut-black-tshirt-isolated-on-white-background-picture-id1142212002?k=6&m=1142212002&s=612x612&w=0&h=kUfL77LrIvxSnZ_XhFyPU9EvgJNooZjP6ixzyHk42Ic=" class="image">
+                    <p class="title">Sit amet <span>Size: L</span></p>
+                    <p class="currency">EUR</p>
+                    <p class="price">4.25</p>
+                </div>
+                <div class="cart-item">
+                    <img src="https://media.istockphoto.com/photos/front-of-men-cut-black-tshirt-isolated-on-white-background-picture-id1142212002?k=6&m=1142212002&s=612x612&w=0&h=kUfL77LrIvxSnZ_XhFyPU9EvgJNooZjP6ixzyHk42Ic=" class="image">
+                    <p class="title">Consectetur adipiscing elit <span>Size: XL</span></p>
+                    <p class="currency">EUR</p>
+                    <p class="price">5.60</p>
+                </div>
+                <div class="shipping">
+                    <p class="title">Shipping</p>
+                    <p class="currency">EUR</p>
+                    <p class="price">2.70</p>
+                </div>
+                <div class="total">
+                    <p class="title">Total</p>
+                    <p class="currency">EUR</p>
+                    <p class="price">16.80</p>
+                </div>
+            </section>
+            <section class="checkout">
+                <header>
+                    <h1>Checkout</h1>
+                    <p>by Credit Card</p>
+                </header>
+                <form action="post">
+                    <div class="input-group">
+                        <div class="label">
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" id="name" placeholder="Jane Doe" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="label">
+                            <label for="number">Card Number</label>
+                        </div>
+                        <div class="input number">
+                            <input type="number" min="1000" max="9999" id="number" placeholder="0000" required><span>&ndash;</span><input type="number" min="1000" max="9999" placeholder="0000" required><span>&ndash;</span><input type="number" min="1000" max="9999" placeholder="0000" required><span>&ndash;</span><input type="number" min="1000" max="9999" placeholder="0000" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="label">
+                            <label for="cvc">Security Code</label>
+                        </div>
+                        <div class="input">
+                            <input type="number" id="cvc" placeholder="000" min="001" max="999" step="1" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="label">
+                            <label for="expire-month">Expiry</label>
+                        </div>
+                        <div class="input">
+                            <input type="month" id="expire-month" required>
+                        </div>
+                        <button>Charge Credit Card</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    <div>
 	
 </body>
 </html>
