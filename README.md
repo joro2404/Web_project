@@ -12,11 +12,11 @@ Must use:<br />
 4. Flex or grid for layouts<br />
  
 Requirements:<br />
-[ ] Host the code as on GitHub<br />
+[X] Host the code as on GitHub<br />
 [ ] Host the site itself on free services like github sites for easy preview<br />
 [ ] Must style at least 5 different layouts for the site<br />
 [ ] Must have a page that showcases styles for standard HTML elements<br />
-[ ] Must have two or more levels deep drop down menu in the header<br />
+[X] Must have two or more levels deep drop down menu in the header<br />
 [ ] Must be responsive (no horizontal scrolls on any viewport)<br />
 [ ] Must get no errors or warnings from the HTML5 Validator<br />
 [ ] Must have realistic content. Your site has to be useful in some way, no lorem ipsum.<br />
