@@ -74,32 +74,12 @@ a {
 		line-height: 2.6vw;
 	}
 }
-.breadcrumbs {
-	color: #c1c1c1;
-	font-weight: 400;
-	font-size: 1vw;
-}
-.body-products {
-	overflow-x: hidden;
-	background: #f0f0f0;
-}
-.breadcrumbs--living-room {
-	&:after {
-		display: inline-block;
-		margin-left: 1.5vw;
-		vertical-align: middle;
-		content: "";
-		width: 3.5vw;
-		height: 3.5vw;
-		background-image: url(https://dl.dropboxusercontent.com/u/29650667/Front%20End/Olios-flexbox/ICON1.png);
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center center;
-	}
-}
+
 .catalog {
 	width: 65vw;
 	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 	left: -1vw;
 	display: -webkit-flex;
 	display: -ms-flexbox;
