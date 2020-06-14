@@ -1,8 +1,10 @@
 @import "general/normalize";
-@import "general/home";
+@import "components/menu";
+
+
 @import "general/search";
+@import "general/view";
 
 @import "components/slideshow";
 @import "components/product_card";
 @import "components/base";
-@import "components/menu";
